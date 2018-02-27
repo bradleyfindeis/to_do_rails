@@ -2,12 +2,16 @@
 <%= form_for @task do |f| %>
   <%= f.label :task %>
   <%= f.text_field :task %>
-
+  <br>
+  <br>
   <%= f.label :priority %>
-  <%= f.text_field :priority %>
-
+  <%= f.select :priority, options_for_select([' ','1', '2', '3', '4', '5'])%>
+  <br>
+  <br>
   <%= f.label :completed %>
   <%= f.check_box :completed %>
-
+  <br>
+  <br>
   <%= f.submit %>
 <% end %>
+
