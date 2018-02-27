@@ -1,6 +1,23 @@
+<HTML>
+
+<head>
+
+</head>
+
+<body>
+
+  <div class="card bg-dark text-white">
+    <img class="card-img" src="desktop.jpeg" alt="Card image">
+    <div class="card-img-overlay">
+    </div>
+  </div>
+
+    <h1><%= @task.task %></h1>
+      <h4><%= @task.priority %></h4>
+      <p><%= @task.completed %></p>
+      <%= link_to 'Back', tasks_path %>
+
+</body>
 
 
-<h1><%= @task.task %></h1>
-<h4><%= @task.priority %></h4>
-<p><%= @task.completed %></p>
-<%= link_to 'Back', tasks_path %>
+</HTML>

@@ -1,0 +1,36 @@
+.navbar-nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.about {
+  color: red;
+}
+.card-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#hbutton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 175px;
+  height: 50px;
+  margin-left: 50%;
+}
+
+.checkbox {
+  width: 60px;
+  height: 60px;
+}
+
+.card-title {
+  size: 80px;
+}
+
+.paragraph {
+  display: flex;
+  justify-content: center;
+}
